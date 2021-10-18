@@ -1,0 +1,229 @@
+@import 'base.css';
+
+
+h1 {
+    color: #FFF;
+    font-size: 24px;
+    margin-right: 40px;
+    font-weight: 400;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    min-width: 80%;
+    background-color: darkgreen;
+
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+
+
+nav {
+    height: 56px;
+    font-size: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+nav ul {
+    float: none;
+    list-style: none;
+    font-size: 0;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 56px;
+}
+
+nav ul li+li {
+    margin-left: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 0 20px;
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+
+
+.icon-container {
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.maroon-icon {
+    color: #e43776;
+    background-color: #b91e5722;
+}
+
+.purple-icon {
+    color: #5941a2;
+    background-color: #5941a222;
+}
+
+.orange-icon {
+    color: #fc9908;
+    background-color: #fc990822;
+}
+
+.green-icon {
+    color: #428744;
+    background-color: #42874422;
+}
+
+.blue-icon {
+    color: #227bc1;
+    background-color: #227bc122;
+}
+
+.red-icon {
+    color: #c22d28;
+    background-color: #c22d2833;
+}
+
+main {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+
+
+input[type="text"] {
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: 12px 12px;
+    color: white;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    padding: 0px 25px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #000;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.show-more {
+    background-color: rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    width: 300px;
+    height: 40px;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: grey;
+    font-size: 18px;
+}
+
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+td {
+    font-weight: 100;
+}
+
+.t-heading {
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: left;
+    color: rgba(131, 131, 131, 0.6);
+}
+
+table td a i {
+    position: relative;
+    bottom: 0rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+ 
+table tr .c-1 {
+    width: 10%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+ 
+table tr .c-2 {
+    line-height: 90px;
+    width: 24%;
+}
+
+table tr .c-6 {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 0px;
+}
+
+.c-3, .c-4, .c-5, .c-6{
+    width: calc(62vw / 3.3 - 154px);
+}
+ 
+table tr+tr {
+    background-color: white;
+    box-shadow: 1px 1px 2px #e4e5e8;
+    border-radius: 20px;
+}
+ 
+table tr td {
+    background-color: white;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: rgb(80, 80, 80);
+    cursor: default;
+}
+
+table tr td:first-child, table tr td:last-child {
+    padding: 0 1.4rem 0 1.4rem;
+}
+
+table td a i {
+    position: relative;
+    bottom: 0rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.break {
+    height: 12px;
+    box-shadow: none;
+}
+ 
